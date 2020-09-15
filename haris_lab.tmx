@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="22" height="25" tilewidth="8" tileheight="8">
+ <tileset firstgid="1" name="sheet_refined" tilewidth="8" tileheight="8">
+  <image source="sheet_refined.png" width="256" height="256"/>
+ </tileset>
+ <layer name="bkgd" width="22" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBg2MBEXQwDlJqzhZGBYSsjgoYBD0bKMK3MRcej5o5sc88D8QUgXg3Ea2hg7kogXkUDc0H4IpK5howIbESGue+B+AMUf0QyN5ARgYOoGG+j5kJAISMCF1HRXErNGTV3eJlLCwAABeGkTw==
+  </data>
+ </layer>
+ <layer name="frgd" width="22" height="25">
+  <data encoding="base64" compression="zlib">
+   eJwTZGBgEKQRxgW08cghA3QzCJmLDESYGRhEmalvLj5whZGB4SojgqaWueiA1uaeBLr9FCOCXgnEqxgpNxdmDrr51HYvtcylNhiq5r4A4pdQvIKK5nIB8yc3NI+eIMOct8A4FmCC4HdI+U0LaKY2Bebici8yGArmIsfbCyqaSy1wGhhnZ2hQTtLK3LNAM88NknI9G5i+c3DUb+SYCzPvIjAvXWIiznxatRtAGABnkC0y
+  </data>
+ </layer>
+ <layer name="window" width="22" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhY8I+JgeE/0wA7YoiC1YwMDGsYMelRQBpYDwyzDVC8cTT8RsEoQAHLgXlixWi+IAt4MzMw+DDTzjxqmz9YAAA2agv5
+  </data>
+ </layer>
+</map>

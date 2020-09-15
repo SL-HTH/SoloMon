@@ -1,0 +1,125 @@
+/*
+    Author: 「ＨＡＰＰＹ ＴＯ ＨＥＬＰ」
+    Date: 15 September 2020
+    Purpose: Solomon - Programming themed Poke-like
+    License: CC BY-SA 4.0 
+            https://creativecommons.org/licenses/by-sa/4.0/
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  image-rendering: pixelated;
+}
+
+/* Variables */
+:root{
+  --img_size: 64px; /* Control image size */
+  --grid_rows:   3; 
+  --grid_cols:   8;
+  --img_opac:  0.4; /* Control image opacity */
+}
+
+body {
+  background: #333;
+}
+.cnv-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+canvas {
+  border: 10px solid;
+  border-radius: 10px;
+  background: #000;
+}
+
+/* Controller/UI container */
+#outer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  /* 幸 Filter for color. Uncomment and change 幸 */
+  /*background-color: rgba(72, 148, 21, 0.2);*/
+
+  display: grid;
+
+  grid-template-rows: repeat(3, 1fr);
+
+  max-width: 760px;
+
+  margin: 0 auto;
+
+  width:  100vw;
+  height: 100vh;
+
+  z-index: 100;
+}
+
+#outer div {
+  padding: 0;
+  margin:  0;
+}
+
+#container-modifiers,
+#container-controls{
+  display: grid;
+
+  gap: 8px;
+
+  grid-template-rows: repeat(var(--grid_rows)   , 1fr);
+  grid-template-columns: repeat(var(--grid_cols), 1fr);
+}
+
+/* Controller Images */
+img {
+  width:  var(--img_size);
+  height: var(--img_size);
+  border: 1px solid white;
+
+  opacity: var(--img_opac);
+}
+
+#zoom-out {
+  grid-row: 2;
+}
+#mute {
+  grid-column: 8;
+}
+
+#btn-lt {
+  grid-row: 2;
+}
+
+#btn-rt {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+#btn-dn {
+  grid-row: 3;
+  grid-column: 2;
+}
+
+#btn-up {
+  grid-column: 2;
+}
+
+#btn-a {
+  grid-column: 8;
+}
+
+#btn-b {
+  grid-row: 2;
+  grid-column: 7;
+}
+
+/* 幸Remove if possible PC screen */
+@media screen and (min-width: 760px){
+  #outer {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="14" tilewidth="8" tileheight="8">
+ <tileset firstgid="1" name="sheet_refined" tilewidth="8" tileheight="8">
+  <image source="sheet_refined.png" width="256" height="256"/>
+ </tileset>
+ <layer name="bkgd" width="20" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgCGJiYJhEIQaZAQMgdjCFGNm8LYwMDFuBuAgoVsyEm14OVLMCjzoYuAJUcxWITQjg40B8Aok/G4jtgNgeiB0YEeYFA9khZOA5QBwHxPFAnEDAvE1AvJmAeXOBuA6I64G4Ack8dqDfOZhQ1V4C4ssEzKsF4nlAPB+IFyCZtxbIXkemn2E4lArhNxTMew/EH2nsvmIguwQP/giM+09M+NWUIplHTQAArn9d9w==
+  </data>
+ </layer>
+ <layer name="frgd" width="20" height="14">
+  <data encoding="base64" compression="zlib">
+   eJwTZKAeEIRiaptHbUxt9w0m87iZGBh4mKhnHjIYNW/gzXvLyMDwjpF65iEDWuQ1ACNcBjk=
+  </data>
+ </layer>
+ <layer name="window" width="20" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwleMzIwvGFEFXsO5L9gxK5+FNAWrAeG+8bRsKcaAAAv+gUN
+  </data>
+ </layer>
+</map>

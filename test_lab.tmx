@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="18" tilewidth="8" tileheight="8">
+ <tileset firstgid="1" name="sheet" tilewidth="8" tileheight="8">
+  <image source="sheet.png" width="256" height="256"/>
+ </tileset>
+ <layer name="bkgd" width="20" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA+SKQSHjVv1LxR80bNG2rmURMAANvdbSE=
+  </data>
+ </layer>
+ <layer name="frgd" width="20" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxLYmBgSKIyphYYNW/UvFHzRs0jxzwmKptHDKB2OQrCAMfTG5M=
+  </data>
+ </layer>
+ <layer name="window" width="20" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMBgBAAWgAAE=
+  </data>
+ </layer>
+</map>

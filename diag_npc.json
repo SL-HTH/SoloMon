@@ -1,0 +1,83 @@
+{
+  "783": {
+    "diag": "[smush]_",
+    "snd": "snd_slime"
+  },
+  "784": {
+    "diag": "[hoorah]_",
+    "snd": "snd_lucha"
+  },
+
+  "787": [
+    "prof. haris: I'm#supposed to give_",
+    "you a monster, but#the game is_",
+    "    unfinished!_"
+  ],
+  "788": [
+    "prof. haris: I'm#supposed to give_",
+    "you a monster, but#the game is_",
+    "    unfinished!_"
+  ],
+  "809": [
+    "S.Rai: haris' lab#co. is guilty!_"
+  ],
+  "810": [
+    "S.Rai: haris' lab#co. is guilty!_"
+  ],
+  "811": [
+    "Bandit: you can#customize your_", 
+    "room by selecting#an item and_",
+    "pressing 'b'#==removed==_"
+  ],
+  "812": [
+    "Bandit: you can#customize your_", 
+    "room by selecting#an item and_",
+    "pressing 'b'#==removed==_"
+  ],
+  "813": [
+    "girl: multiplayer#coming soon?_"
+  ],
+  "814": [
+    "girl: multiplayer#coming soon?_"
+  ],
+
+  "815": {
+    "diag": "[spooky sound]_",
+    "snd": "snd_black"
+  },
+  "816": {
+    "diag": "[woof woof]_",
+    "snd": "snd_dog"
+  },
+
+  "817": [
+    "bald man: he will#pay!! :(_"
+  ],
+  "818": [
+    "bald man: he will#pay!! :(_"
+  ],
+
+  "841": {
+    "diag": "(yx672+j-!?!?_",
+    "snd": "snd_random"
+  },
+
+
+  "874": [
+    "science guy: god0#you must speak_",
+    "with haris before#moving on_"
+  ],
+  "875": [
+    "science guy: god0#you must speak_",
+    "with haris before#moving on_"
+  ],
+
+  "876": [
+    "saanton: yo!!#what's up man?_",
+    "want to buy#saantonplant?_"
+  ],
+  "877": [
+    "saanton: yo!!#what's up man?_",
+    "want to buy#saantonplant?_"
+  ]
+}
