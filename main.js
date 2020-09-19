@@ -1,18 +1,9 @@
-// https://bulbapedia.bulbagarden.net/wiki/Experience
-// Type effectiveness https://unrealitymag.com/wp-content/uploads/2014/11/rby-rules.jpg
-// Music ref. Scythe - メモリーデイズ
-
 /*
-  TODO:
-  -Code
-  --Z-index
-  ---3 draw loops in order
-  --Collision all layers. Current only 0
-
-  -Water animation
-
-  -Map
-  --World map and shops/residential
+    Author: 「ＨＡＰＰＹ ＴＯ ＨＥＬＰ」
+    Date: 15 September 2020
+    Purpose: Solomon - Programming themed Poke-like
+    License: CC BY-SA 4.0 
+            https://creativecommons.org/licenses/by-sa/4.0/
 */
 
 const ini = {
